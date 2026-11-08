@@ -1,0 +1,15 @@
+test_complex_adjoint_multiple_coils (test_core.Contracts.test_complex_adjoint_multiple_coils) ... ok
+test_fixed_auxiliary_gaussian_conditional_moments (test_core.Contracts.test_fixed_auxiliary_gaussian_conditional_moments) ... ok
+test_frozen_decoder_retains_input_derivative (test_core.Contracts.test_frozen_decoder_retains_input_derivative) ... ok
+test_gaussian_normalization_and_positive_floor (test_core.Contracts.test_gaussian_normalization_and_positive_floor) ... ok
+test_gradient_sign (test_core.Contracts.test_gradient_sign) ... ok
+test_mixture_uses_full_marginal_and_zero_limit (test_core.Contracts.test_mixture_uses_full_marginal_and_zero_limit) ... ok
+test_no_uniform_fallback_and_ess (test_core.Contracts.test_no_uniform_fallback_and_ess) ... ok
+test_resampling_correction_no_old_weight (test_core.Contracts.test_resampling_correction_no_old_weight) ... ok
+test_telescoping_three_boundaries (test_core.Contracts.test_telescoping_three_boundaries) ... ok
+test_weighted_magnitude_not_magnitude_mean (test_core.Contracts.test_weighted_magnitude_not_magnitude_mean) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.165s
+
+OK

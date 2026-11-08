@@ -1,0 +1,25 @@
+{
+  "seed": 1202,
+  "data_seed": 4202,
+  "latent_dim": 4,
+  "alpha": [
+    1.0,
+    0.85,
+    0.6,
+    0.3,
+    0.1
+  ],
+  "eta": 0.8,
+  "endpoint_variance": 0.04,
+  "noise_real_variance": 0.01,
+  "aux_variance": 0.15,
+  "lookahead_variance": 0.2,
+  "guidance": 0.01,
+  "base_variance_factor": 1.2,
+  "operator_variance": 0.2,
+  "mixture_rho": 0.35,
+  "particles": 96,
+  "rounds": 3,
+  "ess_fraction": 0.5,
+  "device": "cpu"
+}

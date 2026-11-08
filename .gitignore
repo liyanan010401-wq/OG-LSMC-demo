@@ -1,0 +1,12 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# User-generated runs; the recorded examples/ directory remains tracked.
+outputs/

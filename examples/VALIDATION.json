@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-08",
+  "scope": "Synthetic CPU mechanism demonstration; not a clinical MRI benchmark.",
+  "python": "3.12.14",
+  "torch": "2.10.0+cpu",
+  "numpy": "2.3.5",
+  "device": "cpu",
+  "torch_threads": 1,
+  "command": "python run_demo.py --output examples/run_20261108",
+  "test_command": "python -m unittest discover -s tests -v",
+  "tests_run": 10,
+  "tests_passed": 10,
+  "output_arrays_finite": true,
+  "nonnegative_weights": true,
+  "weights_sum": 0.9999979734420776,
+  "weight_sum_tolerance": 1e-05,
+  "weighted_magnitude_readout_verified": true,
+  "operator_calls": 1,
+  "synthetic_magnitude_mse": 0.0017492121551185846,
+  "acquired_weighted_residual": 0.08667441457509995,
+  "configuration": {
+    "seed": 1202,
+    "data_seed": 4202,
+    "latent_dim": 4,
+    "alpha": [
+      1.0,
+      0.85,
+      0.6,
+      0.3,
+      0.1
+    ],
+    "eta": 0.8,
+    "endpoint_variance": 0.04,
+    "noise_real_variance": 0.01,
+    "aux_variance": 0.15,
+    "lookahead_variance": 0.2,
+    "guidance": 0.01,
+    "base_variance_factor": 1.2,
+    "operator_variance": 0.2,
+    "mixture_rho": 0.35,
+    "particles": 96,
+    "rounds": 3,
+    "ess_fraction": 0.5,
+    "device": "cpu"
+  },
+  "reconstruction_array_shapes": {
+    "magnitude": [
+      8,
+      8
+    ],
+    "rss": [
+      8,
+      8
+    ],
+    "complex_particles": [
+      96,
+      8,
+      8
+    ],
+    "weights": [
+      96
+    ],
+    "reference": [
+      8,
+      8
+    ],
+    "measurements": [
+      40
+    ]
+  },
+  "data_sha256": "012db9fab4bcde91b1d5fd0afba9e15f3b67bf06ab742ad0fcbd18044e2bc573",
+  "core_sources_unchanged": true,
+  "recorded_output_sha256": {
+    "metrics.json": "29f59f7fb9a9407eec12feadf936a0c50b67db9ae919c4528789c722ff2dd1a8",
+    "particle_trace.json": "7d5d438c1d046aa39269c643c2ee9e257ab2ad493d2bf76091f99012a8f0ec65",
+    "reconstruction.npz": "426823d60728b4e0c0db79d2eabe496f0c8e3c0ec73b373225a32c97a1cb4c5f"
+  }
+}

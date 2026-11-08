@@ -1,0 +1,2 @@
+# Preserve the exact archive bytes used by MANIFEST_SHA256.json.
+* -text

@@ -1,0 +1,136 @@
+{
+  "status": "synthetic smoke test; NOT MRI benchmark or calibrated posterior",
+  "seconds": 0.13082122802734375,
+  "operator_calls": 1,
+  "real_noise_variance": 0.01,
+  "synthetic_magnitude_mse": 0.0017492121551185846,
+  "acquired_weighted_residual": 0.08667441457509995,
+  "ess_and_genealogy": [
+    [
+      {
+        "t": 4,
+        "ess_before_resampling": 38.95774459838867,
+        "distinct_T_ancestor_fraction": 1.0,
+        "resampled": false
+      },
+      {
+        "t": 3,
+        "ess_before_resampling": 32.887393951416016,
+        "distinct_T_ancestor_fraction": 0.3333333333333333,
+        "resampled": true
+      },
+      {
+        "t": 2,
+        "ess_before_resampling": 47.87761306762695,
+        "distinct_T_ancestor_fraction": 0.20833333333333334,
+        "resampled": true
+      },
+      {
+        "t": 1,
+        "ess_before_resampling": 12.923762321472168,
+        "distinct_T_ancestor_fraction": 0.10416666666666667,
+        "resampled": true
+      },
+      {
+        "t": 0,
+        "ess_before_resampling": 3.703876495361328,
+        "distinct_T_ancestor_fraction": 0.09375,
+        "resampled": true
+      }
+    ],
+    [
+      {
+        "t": 4,
+        "ess_before_resampling": 38.78704833984375,
+        "distinct_T_ancestor_fraction": 1.0,
+        "resampled": false
+      },
+      {
+        "t": 3,
+        "ess_before_resampling": 39.24134826660156,
+        "distinct_T_ancestor_fraction": 0.4270833333333333,
+        "resampled": true
+      },
+      {
+        "t": 2,
+        "ess_before_resampling": 18.058195114135742,
+        "distinct_T_ancestor_fraction": 0.22916666666666666,
+        "resampled": true
+      },
+      {
+        "t": 1,
+        "ess_before_resampling": 33.49473571777344,
+        "distinct_T_ancestor_fraction": 0.15625,
+        "resampled": true
+      },
+      {
+        "t": 0,
+        "ess_before_resampling": 1.063307762145996,
+        "distinct_T_ancestor_fraction": 0.125,
+        "resampled": true
+      }
+    ],
+    [
+      {
+        "t": 4,
+        "ess_before_resampling": 43.63711166381836,
+        "distinct_T_ancestor_fraction": 1.0,
+        "resampled": false
+      },
+      {
+        "t": 3,
+        "ess_before_resampling": 12.429506301879883,
+        "distinct_T_ancestor_fraction": 0.4479166666666667,
+        "resampled": true
+      },
+      {
+        "t": 2,
+        "ess_before_resampling": 45.40074157714844,
+        "distinct_T_ancestor_fraction": 0.17708333333333334,
+        "resampled": true
+      },
+      {
+        "t": 1,
+        "ess_before_resampling": 22.248397827148438,
+        "distinct_T_ancestor_fraction": 0.13541666666666666,
+        "resampled": true
+      },
+      {
+        "t": 0,
+        "ess_before_resampling": 7.7260332107543945,
+        "distinct_T_ancestor_fraction": 0.0625,
+        "resampled": true
+      }
+    ]
+  ],
+  "weights_sum": 0.9999979734420776,
+  "data_sha256": "012db9fab4bcde91b1d5fd0afba9e15f3b67bf06ab742ad0fcbd18044e2bc573",
+  "training_patients": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "test_patient": 23,
+  "posterior_scope": "last cloud conditional on final auxiliary draw, finite N/J approximation",
+  "substitutions": [
+    "linear PCA autoencoder",
+    "ridge operator, not LMO scan/convolution",
+    "fitted linear denoisers",
+    "synthetic supplied coil map; no ESPIRiT calibration"
+  ]
+}

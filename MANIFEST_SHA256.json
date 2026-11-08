@@ -1,0 +1,92 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 211,
+    "sha256": "5ce7b2018aeadcb4a068e74c56d4b68f81d1bdb2c7f45a24466b9690d54e3fee"
+  },
+  {
+    "path": "config.json",
+    "bytes": 450,
+    "sha256": "acc15c2f0e7fae446b7120097e5d16db9da979ec4fca84d8ea1b356ed416dc7b"
+  },
+  {
+    "path": "data/DATA_CARD.md",
+    "bytes": 2365,
+    "sha256": "382b5fe1d33afc3a5815b5007d3ab0f0ac35c0cfb4451ac1f94dfc4bf5ceb00c"
+  },
+  {
+    "path": "data/sample.npz",
+    "bytes": 12661,
+    "sha256": "012db9fab4bcde91b1d5fd0afba9e15f3b67bf06ab742ad0fcbd18044e2bc573"
+  },
+  {
+    "path": "examples/run_20261108/metrics.json",
+    "bytes": 3558,
+    "sha256": "29f59f7fb9a9407eec12feadf936a0c50b67db9ae919c4528789c722ff2dd1a8"
+  },
+  {
+    "path": "examples/run_20261108/particle_trace.json",
+    "bytes": 41727,
+    "sha256": "7d5d438c1d046aa39269c643c2ee9e257ab2ad493d2bf76091f99012a8f0ec65"
+  },
+  {
+    "path": "examples/run_20261108/reconstruction.npz",
+    "bytes": 47959,
+    "sha256": "426823d60728b4e0c0db79d2eabe496f0c8e3c0ec73b373225a32c97a1cb4c5f"
+  },
+  {
+    "path": "examples/test_results.txt",
+    "bytes": 1194,
+    "sha256": "eec13ed2c0f3336e405b907dfb55940c2e64c6128296ece2dcb1b47a76a41525"
+  },
+  {
+    "path": "examples/VALIDATION.json",
+    "bytes": 1992,
+    "sha256": "94edb154d4f57dd1f6bfb87e60e3b618e564152b0dba3cbffe6a49b67bd01210"
+  },
+  {
+    "path": "METHOD_MAP.md",
+    "bytes": 5430,
+    "sha256": "72cc645e4a356efcf72f8ac01a14f2dd99853d453ebbf33c8032945e2da54146"
+  },
+  {
+    "path": "NOTICE.md",
+    "bytes": 555,
+    "sha256": "67222f6a900860e5972d5ba036e166195803322413d23f60966e7418adf6a77f"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6305,
+    "sha256": "055cd9fc29f090d2f52b65009c97d86bdc53bf804e6600312625dc2c72aca212"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 29,
+    "sha256": "b3747f836362a02e3bb4735cddaeaa781122b05f72659766ae2bffaaab36dbd3"
+  },
+  {
+    "path": "run_demo.py",
+    "bytes": 2492,
+    "sha256": "3fa06f506bbd65e5b2b9b62add1f926d936e46df6d600286a981514faf78f668"
+  },
+  {
+    "path": "src/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/core.py",
+    "bytes": 8531,
+    "sha256": "95a91e0c034aa7ddbefe7c93c3d22921409fe4a6717f61c89a519205366621fd"
+  },
+  {
+    "path": "src/data.py",
+    "bytes": 747,
+    "sha256": "49890dfbaa5570661fcf86c8240a2dffe064a2d0897aea56f8c00a67c0977ca2"
+  },
+  {
+    "path": "tests/test_core.py",
+    "bytes": 4302,
+    "sha256": "d3e4a8484e3bbb37bc96dd8a63f66ebb461a2f920acbe2eb4a0fc614c7d28adc"
+  }
+]
